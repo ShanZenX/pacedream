@@ -6,12 +6,16 @@
 .nav-l>.nav-link{
     color: white !important;
 }
-
+.header-main{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
 
 .header{
-    background-image: url("/Users/shanmugaraj/Documents/shanmugaraj/projects/react/pacedream/public/Images/main-pic.jpg");
+    background-image: url("/Images/main-pic.jpg");
     background-size: cover;
     background-position: center;
+    opacity: 0.7;
 }
 /* .dropdown-menu{
     background-color: transparent !important;
