@@ -6,6 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Dropdown from "react-bootstrap/Dropdown";
 import "@/app/globals.css";
+import { GiShoppingBag } from "react-icons/gi";
 
 export default function Header() {
   return (
@@ -40,19 +41,12 @@ export default function Header() {
             <Nav.Link href="#link" className="mx-4 text-white">
               Contact
             </Nav.Link>
-            {/* <NavDropdown title="Furniture" id="basic-nav-dropdown" className="mx-4 !text-white">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-            </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
         <div className="w-1/5 text-right">
           <Nav className="flex justify-end">
             <Nav.Link href="#link" className="mx-4 text-white">
-              Link
+            <GiShoppingBag className="text-2xl" />
             </Nav.Link>
           </Nav>
         </div>

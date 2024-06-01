@@ -1,14 +1,21 @@
 import Image from "next/image";
-import { metadata } from './layout';
+import { metadata } from "./layout";
 import "@/app/globals.css";
+import { Raleway } from 'next/font/google';
+import HeaaderImg from "./components/index-page-components/HeaaderImg";
+import Chossingus from "./components/index-page-components/Chossingus";
+
+const fontRaleway = Raleway({
+  weight: "700",
+  style: "normal",
+  subsets: ["latin"],
+});
+
 
 export default function Home() {
-  return (
-    <div className="header-main">
-   <div className="  header w-full h-[120vh]">
-<p>Make Your Interior More  </p>
-<p>Minimalistic And Modern</p>
-   </div>
-   </div>
+  return (<>
+  <HeaaderImg />
+  <Chossingus />
+  </>
   );
 }
