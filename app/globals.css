@@ -9,7 +9,7 @@
 .header-main {
     position: relative;
     background: rgba(0, 0, 0, 0.133);
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.774) 0%, rgba(85, 85, 85, 0.44) 78%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.762) 0%, rgba(85, 85, 85, 0.596) 78%, rgba(255,255,255,1) 100%);
 }
   
   .header {
